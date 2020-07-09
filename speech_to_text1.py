@@ -83,7 +83,7 @@ if __name__ == "__main__":
         elif 'the time' in query:
             speak("ok")
             strTime = datetime.datetime.now().strftime("%H:%M:%S")
-            speak(f"Sir, the time is {strTime}")
+            speak("Sir, the time is {strTime}")
 
         elif 'play songs' in query:
             speak("ok")
